@@ -2043,3 +2043,6 @@ jobs:
           tag_name: ${{ env.TAG_NAME }}
           files: |
             flutter/build/rustdesk-${{ env.VERSION }}-${{ env.RELEASE_NAME }}.tar.gz
+            RS_PUB_KEY: "${{ secrets.RS_PUB_KEY }}"
+            RENDEZVOUS_SERVER: "${{ secrets.RENDEZVOUS_SERVER }}"
+            API_SERVER: "${{ secrets.API_SERVER }}"
